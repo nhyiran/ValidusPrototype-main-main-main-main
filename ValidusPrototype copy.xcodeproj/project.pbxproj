@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD60F8362A8BD03F0051A7F1 /* ValidusPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8352A8BD03F0051A7F1 /* ValidusPrototypeApp.swift */; };
+		BD60F8382A8BD03F0051A7F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8372A8BD03F0051A7F1 /* ContentView.swift */; };
+		BD60F83A2A8BD0410051A7F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60F8392A8BD0410051A7F1 /* Assets.xcassets */; };
+		BD60F83D2A8BD0410051A7F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60F83C2A8BD0410051A7F1 /* Preview Assets.xcassets */; };
+		BD60F8472A8BD0420051A7F1 /* ValidusPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8462A8BD0420051A7F1 /* ValidusPrototypeTests.swift */; };
+		BD60F8512A8BD0420051A7F1 /* ValidusPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8502A8BD0420051A7F1 /* ValidusPrototypeUITests.swift */; };
+		BD60F8532A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F8522A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift */; };
+		BD8DCE982A8D0F5B0034C15D /* journalFeauture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DCE972A8D0F5B0034C15D /* journalFeauture.swift */; };
+		BD8DCE9A2A8D152E0034C15D /* workoutFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DCE992A8D152E0034C15D /* workoutFeature.swift */; };
+		BD8DCE9C2A8D15480034C15D /* resourceFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DCE9B2A8D15480034C15D /* resourceFeature.swift */; };
+		BD8DCE9E2A8D155D0034C15D /* settingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DCE9D2A8D155D0034C15D /* settingFeature.swift */; };
+		BDAB6F322A8BD42000AD2AFB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB6F312A8BD42000AD2AFB /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD60F8432A8BD0420051A7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD60F82A2A8BD03F0051A7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD60F8312A8BD03F0051A7F1;
+			remoteInfo = ValidusPrototype;
+		};
+		BD60F84D2A8BD0420051A7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD60F82A2A8BD03F0051A7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD60F8312A8BD03F0051A7F1;
+			remoteInfo = ValidusPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD60F8322A8BD03F0051A7F1 /* ValidusPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidusPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD60F8352A8BD03F0051A7F1 /* ValidusPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidusPrototypeApp.swift; sourceTree = "<group>"; };
+		BD60F8372A8BD03F0051A7F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD60F8392A8BD0410051A7F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD60F83C2A8BD0410051A7F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD60F8422A8BD0420051A7F1 /* ValidusPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidusPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD60F8462A8BD0420051A7F1 /* ValidusPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidusPrototypeTests.swift; sourceTree = "<group>"; };
+		BD60F84C2A8BD0420051A7F1 /* ValidusPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidusPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD60F8502A8BD0420051A7F1 /* ValidusPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidusPrototypeUITests.swift; sourceTree = "<group>"; };
+		BD60F8522A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidusPrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8DCE972A8D0F5B0034C15D /* journalFeauture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalFeauture.swift; sourceTree = "<group>"; };
+		BD8DCE992A8D152E0034C15D /* workoutFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutFeature.swift; sourceTree = "<group>"; };
+		BD8DCE9B2A8D15480034C15D /* resourceFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourceFeature.swift; sourceTree = "<group>"; };
+		BD8DCE9D2A8D155D0034C15D /* settingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingFeature.swift; sourceTree = "<group>"; };
+		BDAB6F312A8BD42000AD2AFB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD60F82F2A8BD03F0051A7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD60F83F2A8BD0420051A7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD60F8492A8BD0420051A7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD60F8292A8BD03F0051A7F1 = {
+			isa = PBXGroup;
+			children = (
+				BD60F8342A8BD03F0051A7F1 /* ValidusPrototype */,
+				BD60F8452A8BD0420051A7F1 /* ValidusPrototypeTests */,
+				BD60F84F2A8BD0420051A7F1 /* ValidusPrototypeUITests */,
+				BD60F8332A8BD03F0051A7F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD60F8332A8BD03F0051A7F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F8322A8BD03F0051A7F1 /* ValidusPrototype.app */,
+				BD60F8422A8BD0420051A7F1 /* ValidusPrototypeTests.xctest */,
+				BD60F84C2A8BD0420051A7F1 /* ValidusPrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD60F8342A8BD03F0051A7F1 /* ValidusPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F8352A8BD03F0051A7F1 /* ValidusPrototypeApp.swift */,
+				BD60F8372A8BD03F0051A7F1 /* ContentView.swift */,
+				BDAB6F312A8BD42000AD2AFB /* HomeScreen.swift */,
+				BD8DCE972A8D0F5B0034C15D /* journalFeauture.swift */,
+				BD8DCE992A8D152E0034C15D /* workoutFeature.swift */,
+				BD8DCE9B2A8D15480034C15D /* resourceFeature.swift */,
+				BD8DCE9D2A8D155D0034C15D /* settingFeature.swift */,
+				BD60F8392A8BD0410051A7F1 /* Assets.xcassets */,
+				BD60F83B2A8BD0410051A7F1 /* Preview Content */,
+			);
+			path = ValidusPrototype;
+			sourceTree = "<group>";
+		};
+		BD60F83B2A8BD0410051A7F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F83C2A8BD0410051A7F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD60F8452A8BD0420051A7F1 /* ValidusPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F8462A8BD0420051A7F1 /* ValidusPrototypeTests.swift */,
+			);
+			path = ValidusPrototypeTests;
+			sourceTree = "<group>";
+		};
+		BD60F84F2A8BD0420051A7F1 /* ValidusPrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F8502A8BD0420051A7F1 /* ValidusPrototypeUITests.swift */,
+				BD60F8522A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift */,
+			);
+			path = ValidusPrototypeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD60F8312A8BD03F0051A7F1 /* ValidusPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD60F8562A8BD0420051A7F1 /* Build configuration list for PBXNativeTarget "ValidusPrototype" */;
+			buildPhases = (
+				BD60F82E2A8BD03F0051A7F1 /* Sources */,
+				BD60F82F2A8BD03F0051A7F1 /* Frameworks */,
+				BD60F8302A8BD03F0051A7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidusPrototype;
+			productName = ValidusPrototype;
+			productReference = BD60F8322A8BD03F0051A7F1 /* ValidusPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD60F8412A8BD0420051A7F1 /* ValidusPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD60F8592A8BD0420051A7F1 /* Build configuration list for PBXNativeTarget "ValidusPrototypeTests" */;
+			buildPhases = (
+				BD60F83E2A8BD0420051A7F1 /* Sources */,
+				BD60F83F2A8BD0420051A7F1 /* Frameworks */,
+				BD60F8402A8BD0420051A7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD60F8442A8BD0420051A7F1 /* PBXTargetDependency */,
+			);
+			name = ValidusPrototypeTests;
+			productName = ValidusPrototypeTests;
+			productReference = BD60F8422A8BD0420051A7F1 /* ValidusPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD60F84B2A8BD0420051A7F1 /* ValidusPrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD60F85C2A8BD0420051A7F1 /* Build configuration list for PBXNativeTarget "ValidusPrototypeUITests" */;
+			buildPhases = (
+				BD60F8482A8BD0420051A7F1 /* Sources */,
+				BD60F8492A8BD0420051A7F1 /* Frameworks */,
+				BD60F84A2A8BD0420051A7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD60F84E2A8BD0420051A7F1 /* PBXTargetDependency */,
+			);
+			name = ValidusPrototypeUITests;
+			productName = ValidusPrototypeUITests;
+			productReference = BD60F84C2A8BD0420051A7F1 /* ValidusPrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD60F82A2A8BD03F0051A7F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BD60F8312A8BD03F0051A7F1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BD60F8412A8BD0420051A7F1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD60F8312A8BD03F0051A7F1;
+					};
+					BD60F84B2A8BD0420051A7F1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BD60F8312A8BD03F0051A7F1;
+					};
+				};
+			};
+			buildConfigurationList = BD60F82D2A8BD03F0051A7F1 /* Build configuration list for PBXProject "ValidusPrototype" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD60F8292A8BD03F0051A7F1;
+			productRefGroup = BD60F8332A8BD03F0051A7F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD60F8312A8BD03F0051A7F1 /* ValidusPrototype */,
+				BD60F8412A8BD0420051A7F1 /* ValidusPrototypeTests */,
+				BD60F84B2A8BD0420051A7F1 /* ValidusPrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD60F8302A8BD03F0051A7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD60F83D2A8BD0410051A7F1 /* Preview Assets.xcassets in Resources */,
+				BD60F83A2A8BD0410051A7F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD60F8402A8BD0420051A7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD60F84A2A8BD0420051A7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD60F82E2A8BD03F0051A7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8DCE982A8D0F5B0034C15D /* journalFeauture.swift in Sources */,
+				BD8DCE9A2A8D152E0034C15D /* workoutFeature.swift in Sources */,
+				BD60F8382A8BD03F0051A7F1 /* ContentView.swift in Sources */,
+				BD60F8362A8BD03F0051A7F1 /* ValidusPrototypeApp.swift in Sources */,
+				BD8DCE9C2A8D15480034C15D /* resourceFeature.swift in Sources */,
+				BDAB6F322A8BD42000AD2AFB /* HomeScreen.swift in Sources */,
+				BD8DCE9E2A8D155D0034C15D /* settingFeature.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD60F83E2A8BD0420051A7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD60F8472A8BD0420051A7F1 /* ValidusPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD60F8482A8BD0420051A7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD60F8532A8BD0420051A7F1 /* ValidusPrototypeUITestsLaunchTests.swift in Sources */,
+				BD60F8512A8BD0420051A7F1 /* ValidusPrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD60F8442A8BD0420051A7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD60F8312A8BD03F0051A7F1 /* ValidusPrototype */;
+			targetProxy = BD60F8432A8BD0420051A7F1 /* PBXContainerItemProxy */;
+		};
+		BD60F84E2A8BD0420051A7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD60F8312A8BD03F0051A7F1 /* ValidusPrototype */;
+			targetProxy = BD60F84D2A8BD0420051A7F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD60F8542A8BD0420051A7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD60F8552A8BD0420051A7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD60F8572A8BD0420051A7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ValidusPrototype/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ValidusPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD60F8582A8BD0420051A7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ValidusPrototype/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ValidusPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD60F85A2A8BD0420051A7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ValidusPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidusPrototype.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ValidusPrototype";
+			};
+			name = Debug;
+		};
+		BD60F85B2A8BD0420051A7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ValidusPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidusPrototype.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ValidusPrototype";
+			};
+			name = Release;
+		};
+		BD60F85D2A8BD0420051A7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ValidusPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValidusPrototype;
+			};
+			name = Debug;
+		};
+		BD60F85E2A8BD0420051A7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ValidusPrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValidusPrototype;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD60F82D2A8BD03F0051A7F1 /* Build configuration list for PBXProject "ValidusPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD60F8542A8BD0420051A7F1 /* Debug */,
+				BD60F8552A8BD0420051A7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD60F8562A8BD0420051A7F1 /* Build configuration list for PBXNativeTarget "ValidusPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD60F8572A8BD0420051A7F1 /* Debug */,
+				BD60F8582A8BD0420051A7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD60F8592A8BD0420051A7F1 /* Build configuration list for PBXNativeTarget "ValidusPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD60F85A2A8BD0420051A7F1 /* Debug */,
+				BD60F85B2A8BD0420051A7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD60F85C2A8BD0420051A7F1 /* Build configuration list for PBXNativeTarget "ValidusPrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD60F85D2A8BD0420051A7F1 /* Debug */,
+				BD60F85E2A8BD0420051A7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD60F82A2A8BD03F0051A7F1 /* Project object */;
+}
